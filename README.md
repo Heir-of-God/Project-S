@@ -31,3 +31,22 @@ The Leetcode solutions folder is structured📋 somehow like this:
 ```
 
 P.S. The file for one solution may contain several "Solution" classes (several methods have been found) or a re-solution if, for example, the daily task has already been encountered before📆.
+
+## HackerRank 🔋
+
+Here you can find solutions for these types of problems: preparation kits💼, topics🔎 (algorithms, DS, math etc.) and contests🏆 (though I don't know when they'll appear there due to the fact that contests are rare on this platform).
+
+The HackerRank solutions folder is structured📋 somehow like this:
+
+```
+├── PreparationKits📁
+│   └── <"kit's name">📁
+│       └── Week<"week's number">📁
+│           └── <"problem's number"> <"problem's name">.py📜
+├── Topics📁
+│   └── <"topic's name">📁
+│       └── <"problem's name">.py📜
+└── Contests📁
+    └── <"contest's name">📁
+        └── <"problem's number"> <"problem's name">.py📜
+```
