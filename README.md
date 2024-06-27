@@ -13,7 +13,8 @@ I will be grateful🍀 if you give my repository a "⭐" if you find it interest
 
 ## Leetcode 🎩
 
-Here you can find solutions for these types of problems: dailys, contests (those that I managed to solve), study plans (such as the top 150 interviews) and just problems that I solved out of boredom😴.  
+Here you can find solutions for these types of problems: Dailys📆, Contests🏆 (those that I managed to solve), Study plans📃 (such as the top 150 interviews) and just problems that I solved out of boredom (Others)😴.  
+
 My Leetcode account: [link](https://leetcode.com/heir-of-god/)  
 The Leetcode solutions folder is structured📋 somehow like this:
 
@@ -34,7 +35,7 @@ P.S. The file for one solution may contain several "Solution" classes (several m
 
 ## HackerRank 🔋
 
-Here you can find solutions for these types of problems: preparation kits💼, topics🔎 (algorithms, DS, math etc.) and contests🏆 (though I don't know when they'll appear there due to the fact that contests are rare on this platform).
+Here you can find solutions for these types of problems: Preparation kits💼, Topics🔎 (algorithms, DS, math etc.) and Contests🏆 (though I don't know when they'll appear there due to the fact that contests are rare on this platform).
 
 The HackerRank solutions folder is structured📋 somehow like this:
 
@@ -49,4 +50,22 @@ The HackerRank solutions folder is structured📋 somehow like this:
 └── Contests📁
     └── <"contest's name">📁
         └── <"problem's number"> <"problem's name">.py📜
+```
+
+## Codeforces 🏆
+
+Here you can find solutions for these types of problems: Problemsets📚 (lists of problems I found somewhere), Others📖 (just problems from the "problemset" page) and Сontests🏆 (with problems that I managed to solve).
+
+My Codeforces account: [link](https://codeforces.com/profile/Heir-of-God)  
+The Codeforces solutions folder is structured📋 somehow like this:
+```
+├── Contests📁
+│   └── <"contest's name">📁
+│       └── <"problem's # in this contest">.py📜 
+├── Problemsets📁
+│   └── <"problemset name">📁
+│       └── link.txt📜         | (contains link to the place where I've found this list of problems)
+│       └── <"problem's identifier on Codeforces"> <"problem's name">.py📜
+└── Others📁
+    └── <"problem's identifier on Codeforces"> <"problem's name">.py📜
 ```
