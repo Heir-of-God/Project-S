@@ -16,3 +16,22 @@ class Solution:
         res = max(res, ind - start_ind + 1)
 
         return res
+
+
+class Solution:
+    def longestOnes(self, nums: list[int], k: int) -> int:
+        res = 0
+        flipped = 0
+        left = 0
+
+        for ind, num in enumerate(nums):
+            if num == 0:
+                flipped += 1
+                if flipped > k:
+                    res = max(res, ind - left)
+                    flipped -= 1
+                    while nums[left] != 0:
+                        left += 1
+                    left += 1
+        res = max(res, len(nums) - left)
+        return res
