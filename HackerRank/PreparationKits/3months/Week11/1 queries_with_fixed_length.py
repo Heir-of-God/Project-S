@@ -19,7 +19,6 @@ def solve(arr: list[int], queries: list[int]) -> list[int]:
 
             if ind >= num - 1:
                 cur_mn_max = min(cur_mn_max, stack[0][1])
-
         res.append(cur_mn_max)
 
     return res
